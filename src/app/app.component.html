@@ -5,6 +5,7 @@
   </h1>
   <app-my-component></app-my-component>
   <!-- <button (click)="enabled=true? false : true" >Click me {{enabled}}</button> -->
+  <button (click)="count = count + 1" >Counting: {{count}}</button>
   <button (click)="enabled=!enabled" >Input disabled? {{!enabled}}</button>
   <input type="text" [disabled]="!enabled">
   <img [src]="imgSource">
